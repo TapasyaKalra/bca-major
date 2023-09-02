@@ -1,0 +1,114 @@
+$primary: #240046;
+$secondary: #ff9e00;
+html {
+  overflow-y: scroll;
+}
+
+hr {
+  width: 50vw;
+}
+
+#about-us {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#social-contact {
+  text-align: center;
+  margin-top: 50px;
+}
+#social-contact i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#call-to-action {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("header.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+#call-to-action div:first-child {
+  padding-top: 5rem;
+}
+#call-to-action h1 {
+  font-family: "Lucida Handwriting", Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+}
+#signup{
+  font-size:2.4rem
+}
+
+#footer-logo {
+  width: 100%;
+  min-width: 100px;
+  max-width: 400px;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #24004611 !important;
+}
+
+.footer {
+  margin: 5px;
+  padding: 15px;
+  line-height: 2em;
+  font-size: 1em;
+}
+
+.footer-border {
+  border-left: solid rgb(112, 112, 112) 0.5px;
+}
+.card {
+  margin: 10px;
+  border: none;
+  border-radius: 0px;
+}
+.card-body,
+.card-footer {
+  background-color: #f7f7f7;
+}
+.product-body{
+  min-height: 250px;
+}
+.buy{
+  position: absolute;
+  bottom: 30px;
+}
+#above-cta .navbar {
+  margin-bottom: 0px;
+}
+
+.navbar {
+  margin-bottom: 50px;
+}
+@media only screen and (min-width: 768px) {
+  #frontPageCarousel,
+  #bridalGallery,
+  #engagementGallery,
+  #partyGallery {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+.product-heading {
+  font-size: 1.5rem !important;
+}
+#productnavigation .navbar {
+  margin-bottom: 10px;
+}
+#galleryButton {
+  color: #9c8cac;
+}
+#shoppingCart {
+  min-width: 60px;
+}
+#QR{
+  height:300px
+}
+@import "node_modules/bootstrap/scss/bootstrap";

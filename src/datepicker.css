@@ -1,0 +1,9 @@
+.rdrMonth {
+    width: 100%;
+}
+.rdrCalendarWrapper {
+    font-size: 16px;
+}
+.rdrWeekDay {
+    color: rgb(0 0 0);
+}
