@@ -10,13 +10,12 @@ import PartyGallery  from './PartyGalleryComponent';
 import EngagementGallery  from './EngagementGalleryComponent';
 import Product from './ProductComponent';
 import Checkout from './CheckoutComponent';
-//import CheckoutForm from './CheckoutFormComponent';
 import {Routes, Route} from 'react-router-dom';
 import Login from './LoginComponent';
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 import Email from './Email';
-import CheckoutForm2 from './CheckoutFormComponent2';
+import CheckoutForm from './CheckoutFormComponent';
 
 function Main(){
     
@@ -36,7 +35,7 @@ function Main(){
                     <Route  path = "/engagementgallery" element = {<EngagementGallery/>}/>
                     <Route  path = "/products" element = {<Product/>}/>
                     <Route  path = "/checkout" element = {<Checkout/>}/>
-                    <Route path="/checkoutform" element={<CheckoutForm2/>} />
+                    <Route path="/checkoutform" element={<CheckoutForm/>} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/email" element={<Email />} />
                    

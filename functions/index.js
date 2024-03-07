@@ -1,8 +1,9 @@
+/* eslint-disable max-len */
 const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
-// eslint-disable-next-line max-len
-const stripe = require("stripe")("sk_test_51KI8ktSIXX3K2OAQSvIr7TRHtvi2cNFYNDP5BcDZ2EBbwvkuzEgtKlbp2rJV1879r5XpWNNVQqQIEHeadWUietBP00ZhsioWrg");
+
+const stripe = require("stripe")( "sk_test_51KI8ktSIXX3K2OAQSvIr7TRHtvi2cNFYNDP5BcDZ2EBbwvkuzEgtKlbp2rJV1879r5XpWNNVQqQIEHeadWUietBP00ZhsioWrg");
 
 // API
 
@@ -32,4 +33,3 @@ app.post("/payments/create", async (request, response) => {
 
 // - Listen command
 exports.api = functions.https.onRequest(app);
-
